@@ -41,7 +41,7 @@ Credit card fraud is a real issue for banks and their customers, and one of the 
 ### Step 1: Split the Data
 The original file was too big for Orange to handle smoothly, so I used a Data Sampler to shrink it down to a manageable size and saved it as a new file (`savedata.csv`) to use for the rest of the project.
 
-<img width="1159" height="289" alt="Screenshot 2026-07-13 at 2 30 28 PM" src="https://github.com/user-attachments/assets/323af077-5709-4be1-b1cc-d348bfd5c661" />
+<img width="1069" height="265" alt="Split Data" src="https://github.com/user-attachments/assets/4a2c5403-83c2-43ba-a340-5528a38b837d" />
 
 ### Step 2: Explore the Data
 Before building the workflow, I needed to understand my data first:
@@ -55,7 +55,7 @@ Before building the workflow, I needed to understand my data first:
 | Scatter Plot | Whether fraud and legit transactions visually clustered apart from each other |
 | Rank | Scored every feature by how well it predicts fraud, using two methods (Gini and ANOVA), so I could see which columns actually mattered |
 
-<img width="1049" height="817" alt="Screenshot 2026-07-13 at 2 04 23 PM" src="https://github.com/user-attachments/assets/6fd5cf8d-b130-4788-b474-2900074b28ee" />
+<img width="1111" height="669" alt="Data Analysis" src="https://github.com/user-attachments/assets/2e81a7f4-f650-4f88-a95b-6915c95aa0ad" />
 
 ### Step 3: Build and Test the Models
 
@@ -67,8 +67,7 @@ Before building the workflow, I needed to understand my data first:
 6. **Confusion Matrix**, broke each model's results down into True Positives, False Positives, True Negatives, and False Negatives
 7. **ROC Analysis**, visualized the tradeoff each model makes between catching fraud and raising false alarms
 
-<img width="1149" height="899" alt="Screenshot 2026-07-13 at 2 04 58 PM" src="https://github.com/user-attachments/assets/95711cd2-409e-424b-abeb-e7ccf3cad21c" />
----
+<img width="1134" height="866" alt="Final Workflow" src="https://github.com/user-attachments/assets/7d569765-46a5-4e1c-b9a9-b4f6b5e8c2b7" />
 
 ## Metrics I Used, and Why
 
